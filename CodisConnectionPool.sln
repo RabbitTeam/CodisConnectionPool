@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26424.2
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BD8AF0ED-5A11-4B19-954E-92BDCC8CBF6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodisConnectionPool", "src\CodisConnectionPool\CodisConnectionPool.csproj", "{DF30B515-1ABE-4002-8FCC-40A0FD4A5109}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{7D8D4841-A972-45BE-81CA-D2AF350BBD15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodisConnectionPool.Test", "test\CodisConnectionPool.Test\CodisConnectionPool.Test.csproj", "{A8DDC434-392F-4284-9D13-97D81E17450E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF30B515-1ABE-4002-8FCC-40A0FD4A5109}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF30B515-1ABE-4002-8FCC-40A0FD4A5109}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF30B515-1ABE-4002-8FCC-40A0FD4A5109}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF30B515-1ABE-4002-8FCC-40A0FD4A5109}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8DDC434-392F-4284-9D13-97D81E17450E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8DDC434-392F-4284-9D13-97D81E17450E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8DDC434-392F-4284-9D13-97D81E17450E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8DDC434-392F-4284-9D13-97D81E17450E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DF30B515-1ABE-4002-8FCC-40A0FD4A5109} = {BD8AF0ED-5A11-4B19-954E-92BDCC8CBF6A}
+		{A8DDC434-392F-4284-9D13-97D81E17450E} = {7D8D4841-A972-45BE-81CA-D2AF350BBD15}
+	EndGlobalSection
+EndGlobal
